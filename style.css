@@ -111,8 +111,40 @@ div {
     border-radius: 50%;
 }
 
-table, tr, td{
+.toldo {
+    display: block;
+}
+
+
+.toldo div, p, a{
+    padding: 0 1rem;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+}
+
+.toldo div p{
+    font-weight: 800;
+}
+
+.toldo div li{
+    margin: 1rem;
+}
+
+.toldo p{
+    padding: 1rem;
+}
+
+.toldo div a{
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+}
+
+
+table, tr, th, td{
     border: 1px solid black;
     padding: 1rem;
     border-collapse: collapse;
+    width: max-content;   
 }
