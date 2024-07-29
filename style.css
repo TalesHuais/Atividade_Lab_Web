@@ -77,6 +77,14 @@ main section fieldset {
     flex-direction: column;
 }
 
+fieldset{
+    margin: 5rem;
+    padding: 0.5rem;
+    border: 2px solid black;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
 
 select {
     border: 1px solid gray;
